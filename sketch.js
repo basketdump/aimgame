@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
   // put drawing code here
-  background(0);
+  background(50);
   for(var i = 0; i < targets.length; i++) {
     targets[i].draw();
   }
